@@ -24,7 +24,7 @@ namespace LabCreatingClasses
         }
 
         /*Method used to display Person objects first name, last name, personal Id, and thier favorite colour*/
-        /*accepts the six person attributes ??? i dont understand why it seems redundant*/
+        /*accepts the six person attributes not sure about this part*/
         public void DisplayPersoninfo()
         {
             string Name = ($"{firstName} {lastName}");
@@ -57,7 +57,6 @@ namespace LabCreatingClasses
             Console.WriteLine($"Age: {displayAge}");
             Console.WriteLine($"Is Working: {displayWorking} \n");        
         }
-
     }
 
     class Relation
@@ -96,7 +95,7 @@ namespace LabCreatingClasses
 
     class MainProgram 
     {
-        
+   
         /* Executing the examples from the word document */
         static void Main(string[] args) 
         {
@@ -167,25 +166,6 @@ namespace LabCreatingClasses
                     person.ToString();
                 }
             }
-            
-           
-
-          
-
-
-
-
-
-
-
-
-
-
-
         }
-
     }
-
-
-
 }
