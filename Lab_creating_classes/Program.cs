@@ -28,7 +28,7 @@ namespace LabCreatingClasses
         public void DisplayPersoninfo()
         {
             string Name = ($"{firstName} {lastName}");
-            Console.WriteLine($"{personalId}: {Name}'s favorite color is {favoriteColour}\n");
+            Console.WriteLine($"\n{personalId}: {Name}'s favorite color is {favoriteColour}");
         }
         
         /*Method used to change a person object favorite colour to white*/
@@ -41,21 +41,15 @@ namespace LabCreatingClasses
         public void GetAgeInTenYears() 
         {
             int newAge = age + 10;
-            Console.WriteLine($"{firstName} {lastName}'s Age in 10 years is: {newAge}\n");
+            Console.WriteLine($"\n{firstName} {lastName}'s Age in 10 years is: {newAge}");
         }
 
         /*Method displays all Person object information as a list*/
         public void ToString()
         {
-            string displayID = personalId.ToString();
-            string displayAge = age.ToString();
-            string displayWorking = isWorking.ToString();
-            Console.WriteLine($"Personal Id: {displayID}");
-            Console.WriteLine($"First Name: {firstName}");
-            Console.WriteLine($"Last Name: {lastName}");
-            Console.WriteLine($"Favorite Colour is: {favoriteColour}");
-            Console.WriteLine($"Age: {displayAge}");
-            Console.WriteLine($"Is Working: {displayWorking} \n");        
+            string personString = ("\nPersonal Id: " + personalId + "\nFirst Name: " + firstName + "\nLast Name: " + lastName + 
+                "\nFavorite Color: " + favoriteColour + "\nAge: " + age + "\nIs working: " + isWorking);
+            Console.WriteLine(personString);
         }
     }
 
@@ -67,28 +61,19 @@ namespace LabCreatingClasses
         /*Relation Object Constructor - checks for valid values*/
         public Relation(string enterRelationshipType)
         {
-            if (enterRelationshipType == "Sister")
-            {
-                this.relationshipType = "Sisterhood";
-            }
-            if (enterRelationshipType == "Brother")
-            {
-                this.relationshipType = "Brotherhood";
-            }
-            if (enterRelationshipType == "Mother")
-            {
-                this.relationshipType = "Motherhood";
-            }
-            if (enterRelationshipType == "Father")
-            {
-                this.relationshipType = "Fatherhood";
-            }
+            if (enterRelationshipType == "Sister"){ this.relationshipType = "Sisterhood";}
+
+            if (enterRelationshipType == "Brother"){ this.relationshipType = "Brotherhood";}
+
+            if (enterRelationshipType == "Mother"){ this.relationshipType = "Motherhood";}
+
+            if (enterRelationshipType == "Father"){ this.relationshipType = "Fatherhood";}           
         }
 
         /*Method accepts two Person objects and displays the relationship between them*/
         public void ShowRelationShip(Person personOne, Person personTwo) 
         {
-            string relationship = ($"Relation between {personOne.firstName} and {personTwo.firstName} is {relationshipType} \n");
+            string relationship = ($"\nRelation between {personOne.firstName} and {personTwo.firstName} is {relationshipType}");
             Console.WriteLine(relationship);
         }
     }
@@ -109,6 +94,7 @@ namespace LabCreatingClasses
             Gina.DisplayPersoninfo();
 
             /* c) Display all of Mike’s information as a list */
+            //Mike.ToString();
             Mike.ToString();
 
             /* d) Change Ian’s Favorite Colour to white, and then print his information as a sentence*/
@@ -134,18 +120,18 @@ namespace LabCreatingClasses
                 totalAge += person.age;
             }
             double averageAge = totalAge / people.Length;
-            Console.WriteLine($"Average age is: {averageAge}\n");
+            Console.WriteLine($"\nAverage age is: {averageAge}");
 
             /* - The youngest person and the oldest person */
             foreach (Person person in people) 
             {
                 if (person.age == people.Min(person => person.age)) 
                 {
-                    Console.WriteLine($"The youngest person is: {person.firstName}\n");
+                    Console.WriteLine($"\nThe youngest person is: {person.firstName}");
                 }
                 if (person.age == people.Max(person => person.age)) 
                 {
-                    Console.WriteLine($"The oldest person is: {person.firstName}\n");
+                    Console.WriteLine($"\nThe oldest person is: {person.firstName}");
                 }                                                                                           
             }
 
