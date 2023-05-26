@@ -29,8 +29,7 @@ namespace LabCreatingClasses
             this.isWorking = working;
         }
 
-        //Method used to display Person objects first name, last name, personal Id, and thier favorite colour*/
-        //accepts the six person attributes not sure about this part
+        //Method used to display Person objects first name, last name, personal Id, and thier favorite colour
         public string DisplayPersoninfo()
         {
             string Name = ($"{firstName} {lastName}");
