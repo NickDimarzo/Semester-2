@@ -29,11 +29,12 @@ namespace LabCreatingClasses
             this.isWorking = working;
         }
 
-        //Method used to display Person objects first name, last name, personal Id, and thier favorite colour
-        public string DisplayPersoninfo()
+        //Method used to display Person objects first name, last name, personal Id, and thier favorite colour.
+        //accepts all six person attributes
+        public string DisplayPersoninfo(int displayId, string displayFirst, string displayLast, string displayColour, int displayAge, bool displayWorking )
         {
-            string Name = ($"{firstName} {lastName}");
-            string displayinfo = ($"\n{personalId}: {Name}'s favorite color is {favoriteColour}");
+            string Name = ($"{displayFirst} {displayLast}");
+            string displayinfo = ($"\n{displayId}: {Name}'s favorite color is {displayColour}");
             return displayinfo;
         }
         
@@ -100,14 +101,14 @@ namespace LabCreatingClasses
             Person Mary = new Person(4, "Mary", "Beals", "Yellow", 28, true);
 
             // b) Display Gina’s information as a sentence that shows her id, first name, last name and her favorite colour 
-            Console.WriteLine(Gina.DisplayPersoninfo());
+            Console.WriteLine(Gina.DisplayPersoninfo(Gina.personalId, Gina.firstName, Gina.lastName, Gina.favoriteColour, Gina.age, Gina.isWorking));
 
             // c) Display all of Mike’s information as a list 
             Console.WriteLine(Mike.ToString());
 
             // d) Change Ian’s Favorite Colour to white, and then print his information as a sentence
             Ian.ChangeFavoriteColour();
-            Console.WriteLine(Ian.DisplayPersoninfo());
+            Console.WriteLine(Ian.DisplayPersoninfo(Ian.personalId, Ian.firstName, Ian.lastName, Ian.favoriteColour, Ian.age, Ian.isWorking));
 
             // e) Display Mary's age after 10 years
             Console.WriteLine(Mary.GetAgeInTenYears());
