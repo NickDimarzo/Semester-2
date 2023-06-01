@@ -28,9 +28,9 @@ namespace LabInheritance
             Console.WriteLine(testFour.ToString());
 
             // Testing to make sure the weekly wages are working correctly
-            Console.WriteLine($"\nEmployee {testTwo.Name} will be payed ${testTwo.WeeklyPay(testTwo.Salary)} this week");
-            Console.WriteLine($"\nEmployee {testThree.Name} will be payed ${testThree.WeeklyPay(testThree.HourlyRate, testThree.WorkHours)} this week");
-            Console.WriteLine($"\nEmployee {testFour.Name} will be payed ${testFour.WeeklyPay(testFour.HourlyRate, testFour.WorkHours)} this week");
+            Console.WriteLine($"\nEmployee {testTwo.Name} will be payed ${testTwo.WeeklyPay()} this week");
+            Console.WriteLine($"\nEmployee {testThree.Name} will be payed ${testThree.WeeklyPay()} this week");
+            Console.WriteLine($"\nEmployee {testFour.Name} will be payed ${testFour.WeeklyPay()} this week");
 
             // MainProgram To do:
             // - figure out how to read the text file and create objects from each line of the text file

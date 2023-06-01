@@ -22,7 +22,7 @@ namespace lab2_inheritance.Classes
         }
 
         // Method used to calculate the weekly pay for a Wages Employee. After 40 hours worked Wages Employee will be payed time and a half for the extra hours worked.
-        internal double WeeklyPay(double HourlyRate, double WorkHours)
+        internal double WeeklyPay()
         {
            
             if (WorkHours > 40) 

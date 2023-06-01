@@ -22,7 +22,7 @@ namespace lab2_inheritance.Classes
         }
 
         // Method used to calculate the weekly pay for a PartTime Employee
-        internal double WeeklyPay(double HourlyRate, double WorkHours)
+        internal double WeeklyPay()
         {
             double payForThisWeek = HourlyRate * WorkHours; 
             return payForThisWeek;
