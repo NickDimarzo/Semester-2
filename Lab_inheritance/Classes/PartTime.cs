@@ -31,15 +31,7 @@ namespace lab2_inheritance.Classes
         // PartTime ToString
         public override string ToString()
         {
-            return ($"\nID: {Id}" +
-                 $"\nName: {Name}" +
-                 $"\nAddress: {Address}" +
-                 $"\nPhone: {Phone}" +
-                 $"\nSIN: {SIN}" +
-                 $"\nStart Date: {StartDate}" +
-                 $"\nDepartment: {Department}" +
-                 $"\nHourlyRate: {HourlyRate}" +
-                 $"\nWorkHours: {WorkHours}");
+            return ($" {base.ToString()} \nHourlyRate: {HourlyRate}\nWorkHours: {WorkHours}");
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\lab2_inheritance\\lab2_inheritance.csproj": {}
+    "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\Semester-2\\Lab_inheritance\\lab2_inheritance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\lab2_inheritance\\lab2_inheritance.csproj": {
+    "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\Semester-2\\Lab_inheritance\\lab2_inheritance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\lab2_inheritance\\lab2_inheritance.csproj",
+        "projectUniqueName": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\Semester-2\\Lab_inheritance\\lab2_inheritance.csproj",
         "projectName": "lab2_inheritance",
-        "projectPath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\lab2_inheritance\\lab2_inheritance.csproj",
+        "projectPath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\Semester-2\\Lab_inheritance\\lab2_inheritance.csproj",
         "packagesPath": "C:\\Users\\Nick Dimarzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\lab2_inheritance\\obj\\",
+        "outputPath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\NickDimarzo\\Semester-2\\Lab_inheritance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
