@@ -25,14 +25,12 @@ namespace lab2_inheritance.Classes
         {
             double payForThisWeek = Salary / 52;
             return payForThisWeek;
-
         }
 
         //Salarized ToString
         public override string ToString()
         {
             return ($" {base.ToString()}\nSalary: {Salary}");
-
         }
     }
 }

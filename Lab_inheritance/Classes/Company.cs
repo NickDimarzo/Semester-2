@@ -65,7 +65,6 @@ namespace lab2_inheritance.Classes
                         lowestName = compareName;
                     }
                 }
-
             }
             return ($"{lowestSalary:C} - {lowestName}");
         }
