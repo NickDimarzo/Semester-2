@@ -41,6 +41,11 @@ namespace lab2_inheritance.Classes
                 $"\nSIN: {SIN}" +
                 $"\nStart Date: {StartDate}" +
                 $"\nDepartment: {Department}");
-        }      
+        }
+        
+        public virtual double WeeklyPay()
+        {
+            return 0;
+        }
     }
 }

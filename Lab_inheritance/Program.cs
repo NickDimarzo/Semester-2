@@ -14,32 +14,14 @@ namespace LabInheritance
 
         static void Main(string[] args) 
         {
-            // Testing to make sure objects are being build correctly
-            var testOne = new Employee("634567","Fred Flintstone", "34 Flintrock Way, Bedrock, BC", "(345) 295 - 9076", "678453234", "June 15, 2000 BC", "Pediatrics");
-            Console.WriteLine(testOne.ToString());
 
-            var testTwo = new Salarized("217546", "Samuel Ludlow III", "2345 The Rich Man Way, RichVille, RC","(567) 324 - 9812","768956453", "February 29, 1942","Collections Section", 20500);
-            Console.WriteLine(testTwo.ToString());
-
-            var testThree = new PartTime("86595", "Bill Partley", "11 Partway Road, Almost, NW", "(111) 232 - 9876", "876345987", "July 10, 1966", "Parts Stuff", 20.55, 18);
-            Console.WriteLine(testThree.ToString());
-
-            var testFour = new Wages("54153", "BobBob Never", "22 NeverReally Lane, Neverland", "(234) 674 - 7865", "98765678", "September 3, 1988", "Never Media", 30.60, 48);
-            Console.WriteLine(testFour.ToString());
-
-            // Testing to make sure the weekly wages are working correctly
-            Console.WriteLine($"\nEmployee {testTwo.Name} will be payed ${testTwo.WeeklyPay()} this week");
-            Console.WriteLine($"\nEmployee {testThree.Name} will be payed ${testThree.WeeklyPay()} this week");
-            Console.WriteLine($"\nEmployee {testFour.Name} will be payed ${testFour.WeeklyPay()} this week");
-
-            // MainProgram To do:
-            // - figure out how to read the text file and create objects from each line of the text file
-            // - need to sort the lines using the first digit of the employee number in order to create the proper Employee Objects
-             
-            string filePath = @"C:\Users\Nick Dimarzo\Desktop\OOP2\NickDimarzo\Semester-2\Lab_inheritance\employees.txt";
+            // a.	Fill a list with objects based on the supplied data file.
+            
+            string fileName = "employees.txt";
+            string projectDirectory = Directory.GetCurrentDirectory();
+            string filePath = Path.Combine(projectDirectory, fileName);
 
             List<Employee> employees = new List<Employee>();
-
             List<string> lines = new List<string>();
             lines = File.ReadAllLines( filePath ).ToList();
 
@@ -77,12 +59,21 @@ namespace LabInheritance
 
             Company company = new Company(employees);
 
-            // - Calculate and return the average weekly pay for all employees
-            // - Calculate and return the highest weekly pay for the wage employees, including the name of the employee
-            // - Calculate and return the lowest salary for the salaried employees, including the name of the employee
-            // - What percentage of the company’s employees fall into each employee category?
+            //b.	Calculate and return the average weekly pay for all employees.
+            double averageWeeklyPay = company.CalculateAverageWeeklyPay();
+            Console.WriteLine($"\nThe average weekly pay for all employees is: {averageWeeklyPay:C}");
 
+            //c.	Calculate and return the highest weekly pay for the wage employees, including the name of the employee.
+            string highestWeeklyPay = company.CalculateHighestWeeklyPay();
+            Console.WriteLine($"\nThe highest weekly pay for all employees is: {highestWeeklyPay}");
 
+            //d.	Calculate and return the lowest salary for the salaried employees, including the name of the employee
+            string lowestSalary = company.CalculateLowestSalary();
+            Console.WriteLine($"\nThe lowest salary for all employees is: {lowestSalary}");
+
+            //e.	What percentage of the company’s employees fall into each employee category? 
+            string percentageOfEmployees = company.CalculatePercentageOfEmployees();
+            Console.WriteLine($"\nThe percentage of employees in each category is: {percentageOfEmployees}");
 
         }
 
