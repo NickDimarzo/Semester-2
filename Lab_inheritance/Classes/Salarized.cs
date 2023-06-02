@@ -19,7 +19,7 @@ namespace lab2_inheritance.Classes
             this.Salary = salary;
         }
 
-        internal double WeeklyPay()
+        public override double WeeklyPay()
         {
             double payForThisWeek = Salary / 52;
             return payForThisWeek;
