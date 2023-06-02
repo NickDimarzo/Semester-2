@@ -20,6 +20,7 @@ namespace lab2_inheritance.Classes
         }
 
         //Method used to calculate the weekly pay for a Salarized Employee
+        //Assumming the total salary is for the year and will be divided by 52 weeks
         public override double WeeklyPay()
         {
             double payForThisWeek = Salary / 52;
