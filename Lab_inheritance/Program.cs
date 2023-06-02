@@ -35,10 +35,53 @@ namespace LabInheritance
             // MainProgram To do:
             // - figure out how to read the text file and create objects from each line of the text file
             // - need to sort the lines using the first digit of the employee number in order to create the proper Employee Objects
+             
+            string filePath = @"C:\Users\Nick Dimarzo\Desktop\OOP2\NickDimarzo\Semester-2\Lab_inheritance\employees.txt";
+
+            List<Employee> employees = new List<Employee>();
+
+            List<string> lines = new List<string>();
+            lines = File.ReadAllLines( filePath ).ToList();
+
+            foreach (string line in lines)
+            {
+                if (line.StartsWith("0") || line.StartsWith("1") || line.StartsWith("2") || line.StartsWith("3") || line.StartsWith("4"))
+                {
+                    string[] items = line.Split(':');
+                    Salarized p;
+                    p = new Salarized(items[0], items[1], items[2], items[3], items[4], items[5], items[6], Convert.ToDouble(items[7]));
+                    employees.Add(p);
+                }
+
+                else if (line.StartsWith("5") || line.StartsWith("6") || line.StartsWith("7"))
+                {
+                    string[] items = line.Split(':');
+                    PartTime p;
+                    p = new PartTime(items[0], items[1], items[2], items[3], items[4], items[5], items[6], Convert.ToDouble(items[7]), Convert.ToDouble(items[8]));
+                    employees.Add(p);
+                }
+
+                else if (line.StartsWith("8") || line.StartsWith("9"))
+                {
+                    string[] items = line.Split(':');
+                    Wages p;
+                    p = new Wages(items[0], items[1], items[2], items[3], items[4], items[5], items[6], Convert.ToDouble(items[7]), Convert.ToDouble(items[8]));
+                    employees.Add(p);
+                }
+            }
+
+            foreach (var employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+
+            Company company = new Company(employees);
+
             // - Calculate and return the average weekly pay for all employees
             // - Calculate and return the highest weekly pay for the wage employees, including the name of the employee
             // - Calculate and return the lowest salary for the salaried employees, including the name of the employee
-            // - What percentage of the company’s employees fall into each employee category? 
+            // - What percentage of the company’s employees fall into each employee category?
+
 
 
         }
