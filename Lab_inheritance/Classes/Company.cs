@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace lab2_inheritance.Classes
 {
+    //Class Company object is used to work with all employees
     internal class Company
     {
+        //Company Attributes
         public List<Employee> Employees;
 
-        public Company(List<Employee> employees) 
+        //Company Constructor
+        public Company(List<Employee> employees)
         {
             this.Employees = employees;
         }
 
+        //Method is used to calculate the average weekly pay for all employees
         public double CalculateAverageWeeklyPay()
         {
             double total = 0;
@@ -25,6 +29,7 @@ namespace lab2_inheritance.Classes
             return total / Employees.Count;
         }
 
+        //Method is used to find the highest paid employee out of all employees
         public string CalculateHighestWeeklyPay()
         {
             string highestName = "";
@@ -40,6 +45,7 @@ namespace lab2_inheritance.Classes
             return ($"{highestPay:C} - {highestName}");
         }
 
+        //Method is used to find the lowest paid Salarized employee
         public string CalculateLowestSalary()
         {
             string lowestName = "";
@@ -52,18 +58,19 @@ namespace lab2_inheritance.Classes
                 {
                     compareSalary = ((Salarized)employee).Salary;
                     compareName = employee.Name;
-                    
+
                     if (compareSalary < lowestSalary)
                     {
                         lowestSalary = compareSalary;
                         lowestName = compareName;
                     }
                 }
-                
+
             }
             return ($"{lowestSalary:C} - {lowestName}");
         }
 
+        //Method is used to calculate the percentage of each type of employee
         public string CalculatePercentageOfEmployees()
         {
             double total = Employees.Count;
@@ -88,8 +95,4 @@ namespace lab2_inheritance.Classes
             return ($"\nSalarized: {salarized / total:P}\nPartTime: {parttime / total:P}\nContract: {wages / total:P}");
         }
     }
-
-
-
-
 }
