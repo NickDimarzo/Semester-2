@@ -19,6 +19,7 @@ namespace lab2_inheritance.Classes
             this.Salary = salary;
         }
 
+        //Method used to calculate the weekly pay for a Salarized Employee
         public override double WeeklyPay()
         {
             double payForThisWeek = Salary / 52;
@@ -26,10 +27,12 @@ namespace lab2_inheritance.Classes
 
         }
 
+        //Salarized ToString
         public override string ToString()
         {
             return ($" {base.ToString()}\nSalary: {Salary}");
-            
+
         }
     }
 }
+

@@ -21,17 +21,17 @@ namespace lab2_inheritance.Classes
             this.WorkHours = workhours;
         }
 
-        // Method used to calculate the weekly pay for a Wages Employee. After 40 hours worked Wages Employee will be payed time and a half for the extra hours worked.
+        //Method used to calculate the weekly pay for a Wages Employee. After 40 hours worked Wages Employee will be payed time and a half for the extra hours worked.
         public override double WeeklyPay()
         {
-           
-            if (WorkHours > 40) 
+
+            if (WorkHours > 40)
             {
                 double normalRate = (HourlyRate * 40);
                 double overTimeHours = (WorkHours - 40);
                 double overTimeRate = (overTimeHours * (HourlyRate * 1.5));
                 double payForThisweek = (normalRate + overTimeRate);
-                return payForThisweek;          
+                return payForThisweek;
             }
             else
             {
@@ -40,7 +40,7 @@ namespace lab2_inheritance.Classes
             }
         }
 
-        // Wages ToString
+        //Wages ToString
         public override string ToString()
         {
             return ($" {base.ToString()} \nHourlyRate: {HourlyRate}\nWorkHours: {WorkHours}");
