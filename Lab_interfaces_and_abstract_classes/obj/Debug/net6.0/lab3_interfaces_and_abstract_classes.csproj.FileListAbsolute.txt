@@ -1,0 +1,15 @@
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\bin\Debug\net6.0\lab3_interfaces_and_abstract_classes.exe
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\bin\Debug\net6.0\lab3_interfaces_and_abstract_classes.deps.json
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\bin\Debug\net6.0\lab3_interfaces_and_abstract_classes.runtimeconfig.json
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\bin\Debug\net6.0\lab3_interfaces_and_abstract_classes.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\bin\Debug\net6.0\lab3_interfaces_and_abstract_classes.pdb
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.csproj.AssemblyReference.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.AssemblyInfoInputs.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.AssemblyInfo.cs
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.csproj.CoreCompileInputs.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\refint\lab3_interfaces_and_abstract_classes.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.pdb
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\lab3_interfaces_and_abstract_classes.genruntimeconfig.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\lab3_interfaces_and_abstract_classes\obj\Debug\net6.0\ref\lab3_interfaces_and_abstract_classes.dll
