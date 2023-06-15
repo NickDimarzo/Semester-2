@@ -1,0 +1,17 @@
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.csproj.AssemblyReference.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.Form1.resources
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.csproj.GenerateResource.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.AssemblyInfoInputs.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.AssemblyInfo.cs
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.csproj.CoreCompileInputs.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\bin\Debug\net6.0-windows\simple_calculator.exe
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\bin\Debug\net6.0-windows\simple_calculator.deps.json
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\bin\Debug\net6.0-windows\simple_calculator.runtimeconfig.json
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\bin\Debug\net6.0-windows\simple_calculator.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\bin\Debug\net6.0-windows\simple_calculator.pdb
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\refint\simple_calculator.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.pdb
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\simple_calculator.genruntimeconfig.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\simple_calculator\obj\Debug\net6.0-windows\ref\simple_calculator.dll
