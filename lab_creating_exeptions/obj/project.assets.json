@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\lab_creating_exeptions\\lab_creating_exeptions.csproj",
+      "projectUniqueName": "C:\\Users\\Nick Dimarzo\\Source\\Repos\\NickDimarzo\\Semester-2\\lab_creating_exeptions\\lab_creating_exeptions.csproj",
       "projectName": "lab_creating_exeptions",
-      "projectPath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\lab_creating_exeptions\\lab_creating_exeptions.csproj",
+      "projectPath": "C:\\Users\\Nick Dimarzo\\Source\\Repos\\NickDimarzo\\Semester-2\\lab_creating_exeptions\\lab_creating_exeptions.csproj",
       "packagesPath": "C:\\Users\\Nick Dimarzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\lab_creating_exeptions\\obj\\",
+      "outputPath": "C:\\Users\\Nick Dimarzo\\Source\\Repos\\NickDimarzo\\Semester-2\\lab_creating_exeptions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
