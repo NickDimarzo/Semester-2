@@ -106,7 +106,23 @@ public class SinglyLinkedList<T>
 
         return false;
     }
-    //slide 29 next method
+    
+    public Node<T> Find (T data)
+    {
+        Node<T> currentNode = head;
+
+        while (currentNode != null)
+        {
+            if(currentNode.Data.Equals(data))
+            {
+                return currentNode;
+            }
+            currentNode = currentNode.Next
+        }
+
+        return null;
+        
+    }
     
 
 
