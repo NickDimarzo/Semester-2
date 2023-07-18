@@ -119,9 +119,21 @@ public class SinglyLinkedList<T>
             }
             currentNode = currentNode.Next
         }
+        return null;      
+    }
 
-        return null;
-        
+    public void Traverse()
+    {
+        Node<T> currentNode = head;
+
+        while (currentNode != null)
+        {
+            //Perform operation on the current node
+            Console.Write(currentNode.Data + " ");
+
+            // Move to the next node
+            currentNode = currentNode.Next;
+        }
     }
     
 
