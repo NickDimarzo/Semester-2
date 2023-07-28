@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ob8iTWj6C0qIZlI2SePGhEnpMlkCIFNW+o9sT8wl60p7mgEEKI+Gzu1dhTDHSyelIJa1GsfwskcURuUTTO+h5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nick Dimarzo\\Desktop\\OOP2\\week_12\\lab9_database_connection_cprg211d_nick_dimarzo\\lab_database_connection\\lab_database_connection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nick Dimarzo\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512"
+  ],
+  "logs": []
+}
