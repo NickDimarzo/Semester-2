@@ -1,0 +1,15 @@
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\bin\Debug\net6.0\lab_using_recursion.exe
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\bin\Debug\net6.0\lab_using_recursion.deps.json
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\bin\Debug\net6.0\lab_using_recursion.runtimeconfig.json
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\bin\Debug\net6.0\lab_using_recursion.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\bin\Debug\net6.0\lab_using_recursion.pdb
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.csproj.AssemblyReference.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.AssemblyInfoInputs.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.AssemblyInfo.cs
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.csproj.CoreCompileInputs.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\refint\lab_using_recursion.dll
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.pdb
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\lab_using_recursion.genruntimeconfig.cache
+C:\Users\Nick Dimarzo\Desktop\OOP2\week_12\lab_using_recursion\lab_using_recursion\obj\Debug\net6.0\ref\lab_using_recursion.dll
